@@ -1,0 +1,69 @@
+#Electricity Bill Calculator
+
+kwh = int(input("Enter the KW hours used: "))
+# $amount for the first 1000
+if kwh <= 1000:
+    total_amount = kwh *7.633/100
+
+# $amount for the addition
+else:
+    total_amount = 1000*7.633/100
+    total_amount += (kwh-1000)*9.259/100
+
+#Calculation
+
+
+#The amount owned
+print("Amount owned is: ${}" .format(total_amount))
+print("ThankYou Next Please\n")
+
+kwh = int(input("Enter the KW hours used: "))
+# $amount for the first 1000
+if kwh <= 1000:
+    total_amount = kwh *7.633/100
+
+# $amount for the addition
+else:
+    total_amount = 1000*7.633/100
+    total_amount += (kwh-1000)*9.259/100
+
+#Calculation
+
+
+#The amount owned
+print("Amount owned is: ${}" .format(total_amount))
+print("ThankYou Next Please \n")
+
+kwh = int(input("Enter the KW hours used: "))
+# $amount for the first 1000
+if kwh <= 1000:
+    total_amount = kwh *7.633/100
+
+# $amount for the addition
+else:
+    total_amount = 1000*7.633/100
+    total_amount += (kwh-1000)*9.259/100
+
+#Calculation
+
+
+#The amount owned
+print("Amount owned is: ${}" .format(total_amount))
+print("ThankYou Next Please \n")
+
+kwh = int(input("Enter the KW hours used: "))
+# $amount for the first 1000
+if kwh <= 1000:
+    total_amount = kwh *7.633/100
+
+# $amount for the addition
+else:
+    total_amount = 1000*7.633/100
+    total_amount += (kwh-1000)*9.259/100
+
+#Calculation
+
+
+#The amount owned
+print("Amount owned is: ${}" .format(total_amount))
+print("ThankYou Next Please \n")
